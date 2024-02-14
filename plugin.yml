@@ -8,16 +8,6 @@ authors:
 main: owonico\Main
 description: "LithiumNetwork offical practice core"
 website: "dsc.gg/lithiummc"
-softdepend:
-  - Unranked-Sumo
-  - Unranked-Fist
-  - Unranked-Nodebuff
-  - Unranked-Topfight
-  - Unranked-Bridgefight
-  - Unranked-Blockin
-  - Unranked-Bedwars
-  - Unranked-Mlgrush
-  - Unranked-Skywars
 
 commands:
   mute:
