@@ -1,0 +1,22 @@
+# QuanMC Default Setting File
+
+maintenance: false
+
+name: ""
+
+region: ""
+
+webhook: ""
+
+report-webhook: ""
+
+resource-packs:
+
+# resource-packs:
+#     resource-pack-uuid: content-key
+
+host: 127.0.0.1
+username: root
+password: ""
+schema: your_schema
+port: 3306

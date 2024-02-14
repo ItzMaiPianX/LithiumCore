@@ -1,0 +1,42 @@
+name: QuanMC
+api: ["4.0.0"]
+version: "4.0.0"
+author: QuzaNetwork(OwoNico)
+authors:
+  - QuzaNetwork(OwoNico)
+  - QuzaNetwork(MaiPian)
+main: owonico\Main
+description: "LithiumNetwork offical practice core"
+website: "dsc.gg/lithiummc"
+softdepend:
+  - Unranked-Sumo
+  - Unranked-Fist
+  - Unranked-Nodebuff
+  - Unranked-Topfight
+  - Unranked-Bridgefight
+  - Unranked-Blockin
+  - Unranked-Bedwars
+  - Unranked-Mlgrush
+  - Unranked-Skywars
+
+commands:
+  mute:
+    description: "Mute player"
+    permission: mute.command
+    permission-message: "§l§8[§bLITHUUM§8]§r §cYou dont have permission to perform this command!"
+  unmute:
+    description: "Unmute player"
+    permission: unmute.command
+    permission-message: "§l§8[§bLITHIUM§8]§r §cYou dont have permission to perform this command!"
+
+permissions:
+  mute.command:
+    default: op
+  unmute.command:
+    default: op
+  console:
+    default: op
+  lithiummc.staff:
+    default: op  
+  core.nick:
+    default: op
